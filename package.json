@@ -1,0 +1,28 @@
+{
+  "name": "techfix",
+  "version": "1.0.0",
+  "description": "TechFix – Sistema de Controle de Manutenção de Computadores",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/Computador.js",
+      "src/Manutencao.js",
+      "src/ControleManutencao.js"
+    ],
+    "coverageDirectory": "docs/coverage",
+    "coverageReporters": ["text", "lcov"]
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

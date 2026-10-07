@@ -1,0 +1,17 @@
+PASS tests/ControleManutencao.test.js
+PASS tests/Manutencao.test.js
+PASS tests/Computador.test.js
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ Computador.js         |     100 |      100 |     100 |     100 |                   
+ ControleManutencao.js |     100 |      100 |     100 |     100 |                   
+ Manutencao.js         |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 3 passed, 3 total
+Tests:       61 passed, 61 total
+Snapshots:   0 total
+Time:        2.198 s
+Ran all test suites.
